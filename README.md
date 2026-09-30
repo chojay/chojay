@@ -6,7 +6,9 @@ Everything here is nights-and-weekends work on public data and public physics. N
 
 ## Start here
 
-- **The hull-swap bug** in [side-quests / mp-interface-reactions](https://github.com/chojay/side-quests/blob/main/computational-materials/mp-interface-reactions/README.md): a silently changed API default (mixed GGA/R2SCAN hull) that corrupted reaction energies until a literature cross-check caught it.
+**[side-quests](https://github.com/chojay/side-quests)** is the main repo: parametric CAD as code, espresso machine telemetry, a medical-imaging pipeline, computational materials screening, and hardware drivers, each with its numbers regenerable from the folder. Three artifacts carry the flavor:
+
+- **The hull-swap bug** in [mp-interface-reactions](https://github.com/chojay/side-quests/blob/main/computational-materials/mp-interface-reactions/README.md): a silently changed API default (mixed GGA/R2SCAN hull) that corrupted reaction energies until a literature cross-check caught it.
 - **[NIIMBOT GOTCHAS.md](https://github.com/chojay/side-quests/blob/main/hardware-tools/niimbot-labelmaker/GOTCHAS.md)**: visually identical printers, different firmware dialects; one returns byte-perfect success traces while printing blanks.
 - **[mos_r.py](https://github.com/chojay/side-quests/blob/main/medical-imaging/gma-video-pipeline/src/gma_pipeline/mos_r.py)**: a scorer that declares three subscales NOT_COMPUTABLE rather than guessing.
 
